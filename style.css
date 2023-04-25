@@ -1,0 +1,140 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Serif&display=swap');
+
+  /* *{
+    box-sizing: border-box;
+  } */
+
+  body{
+    font-family: 'Roboto Serif', serif;
+    counter-reset: game;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+
+  }
+
+   /* input:checked{
+    counter-increment: game;
+  }
+
+  .contador::after{
+    content: counter(game);
+  }  */
+
+
+  .phone{
+    position: relative;
+    border: 8px solid black;
+    border-radius: 40px;
+    height: 600px;
+    width: 300px;
+    background-image: linear-gradient(to right top, #6bd1be, #6fd5c6, #73d8ce, #78dcd6, #7edfdd, #7bdfe2, #79dfe7, #78dfec, #6fdbf0, #67d7f4, #62d3f8, #5fcefb);
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30),0 15px 12px rgba(0, 0, 0, 0.30);
+  } 
+
+  .capa1{
+    position: absolute;
+    z-index: 1;
+    height: 450px;
+    width: 80px;
+    background-color: white;
+    bottom: 0;
+    right: 60px;
+  }
+
+  .capa2{
+    position: absolute;
+    z-index: 2;
+    height: 450px;
+    width: 80px;
+    background-color: white;
+    bottom: 0;
+    left: 60px;
+  }
+  .capa3{
+    position: absolute;
+    z-index: 3;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 220px;
+    height: 400px;
+    background: green;
+    bottom: 0;
+  }
+  .capa4{
+    position: absolute;
+    z-index: 4;
+    height: 450px;
+    width: 80px;
+    background-color: white;
+    bottom: 0;
+    left: 60px;
+  }
+  .capa5{
+    position: absolute;
+    z-index: 5;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 110px;
+    height: 200px;
+    background: green;
+    bottom: 0;
+  }
+  .capa6{
+    position: absolute;
+    z-index: 6;
+    height: 450px;
+    width: 80px;
+    background-color: white;
+    bottom: 0;
+    left: 60px;
+  }
+  .capa7{
+    position: absolute;
+    z-index: 7;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 110px;
+    height: 200px;
+    background: green;
+    bottom: 0;
+  }
+  .capa8{
+    position: absolute;
+    z-index: 8;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 110px;
+    height: 200px;
+    background: green;
+    bottom: 0;
+  }
+  .capa9{
+    position: absolute;
+    z-index: 9;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 110px;
+    height: 200px;
+    background: green;
+    bottom: 0;
+  }
+  .capa10{
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 110px;
+    height: 200px;
+    background: green;
+    bottom: 0;
+  }
