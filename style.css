@@ -1,9 +1,6 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Roboto+Serif&display=swap');
 
-  /* *{
-    box-sizing: border-box;
-  } */
 
   body{
     font-family: 'Roboto Serif', serif;
@@ -13,17 +10,7 @@
     width: 100%;
     display: grid;
     place-items: center;
-
   }
-
-   /* input:checked{
-    counter-increment: game;
-  }
-
-  .contador::after{
-    content: counter(game);
-  }  */
-
 
   .phone{
     position: relative;
@@ -34,6 +21,95 @@
     background-image: linear-gradient(to right top, #6bd1be, #6fd5c6, #73d8ce, #78dcd6, #7edfdd, #7bdfe2, #79dfe7, #78dfec, #6fdbf0, #67d7f4, #62d3f8, #5fcefb);
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30),0 15px 12px rgba(0, 0, 0, 0.30);
   } 
+
+
+  .oreja-izquierda--externa{
+    background-color: gray;
+    border-radius: 90%;
+    width: 20px;
+    height: 50px;
+    position: absolute;
+    left: 10px;
+  }
+
+  .oreja-izquierda--interna{
+    background-color: pink;
+    border-radius: 90%;
+    width: 10px;
+    height: 40px;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+
+  }
+  .oreja-derecha--externa{
+    background-color: gray;
+    border-radius: 90%;
+    width: 20px;
+    height: 50px;
+    position: absolute;
+    right: 10px;
+  }
+
+  .oreja-derecha--interna{
+    background-color: pink;
+    border-radius: 90%;
+    width: 10px;
+    height: 40px;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+
+  }
+
+  .cabeza{
+    background-color: gray;
+    border-radius: 50px;
+    height: 80px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+    top: 30px;
+    width: 100%;
+  }
+
+  .cabeza__ojo{
+    background-color: black;
+    border-radius: 50%;
+    height: 6px;
+    width: 6px;
+    position: absolute;
+    top: 15px;
+    animation-name: parpadeo;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes parpadeo{
+    0%{
+      height: 8px;
+
+    }
+    5%{
+      transform: translate(0px,2px);
+      height: 1px;
+      
+    }
+    10%{
+      transform: translate(0px,0px);
+      height: 8px;
+      
+    }
+
+  }
+
+  .cabeza__ojo--izquierda{
+    left: 27px;
+  }
+  .cabeza__ojo--derecha{
+    right: 27px;
+  }
 
   .capa1{
     position: absolute;
@@ -65,16 +141,16 @@
     background: green;
     bottom: 0;
   }
-  .capa4{
+  /* .capa4{
     position: absolute;
     z-index: 4;
     height: 450px;
     width: 80px;
-    background-color: white;
+    background-color: brown;
     bottom: 0;
     left: 60px;
-  }
-  .capa5{
+  } */
+  /* .capa5{
     position: absolute;
     z-index: 5;
     left: 0;
@@ -84,8 +160,8 @@
     height: 200px;
     background: green;
     bottom: 0;
-  }
-  .capa6{
+  } */
+  /* .capa6{
     position: absolute;
     z-index: 6;
     height: 450px;
@@ -93,8 +169,8 @@
     background-color: white;
     bottom: 0;
     left: 60px;
-  }
-  .capa7{
+  } */
+  /* .capa7{
     position: absolute;
     z-index: 7;
     left: 0;
@@ -104,8 +180,8 @@
     height: 200px;
     background: green;
     bottom: 0;
-  }
-  .capa8{
+  } */
+  /* .capa8{
     position: absolute;
     z-index: 8;
     left: 0;
@@ -115,8 +191,8 @@
     height: 200px;
     background: green;
     bottom: 0;
-  }
-  .capa9{
+  } */
+  /* .capa9{
     position: absolute;
     z-index: 9;
     left: 0;
@@ -126,8 +202,8 @@
     height: 200px;
     background: green;
     bottom: 0;
-  }
-  .capa10{
+  } */
+  /* .capa10{
     position: absolute;
     z-index: 10;
     left: 0;
@@ -137,4 +213,4 @@
     height: 200px;
     background: green;
     bottom: 0;
-  }
+  } */
